@@ -8,7 +8,6 @@ function MainPage() {
 	}
 	return (
 		<div>
-			MainPage
 			<Button name='Edit Game' onClick={handleClick} />
 		</div>
 	)

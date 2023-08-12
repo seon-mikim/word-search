@@ -1,9 +1,8 @@
 
-
-function Iput({ ...props}) {
+function Input({ ...props}) {
 	return (
 		<input {...props} />
 	)
 }
 
-export default Iput
+export default Input

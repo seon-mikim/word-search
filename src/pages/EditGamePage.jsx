@@ -2,7 +2,9 @@
 
 function EditGamePage() {
 	return (
-		<div>EditGamePage</div>
+		<div>
+			EditGamePage
+		</div>
 	)
 }
 
