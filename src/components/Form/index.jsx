@@ -1,8 +1,8 @@
+import * as S from './style'
 
-
-function Form({...props}) {
+function Form({children,...props}) {
 	return (
-		<form {...props}></form>
+		<S.Form {...props}>{ children }</S.Form>
 	)
 }
 

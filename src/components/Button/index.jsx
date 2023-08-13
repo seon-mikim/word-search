@@ -1,6 +1,7 @@
-function Button({ name,...props }) {
+import * as S from './style'
+function Button({ name, ...props }) {
 	return (
-		<button {...props}>{name}</button>
+		<S.Button {...props}>{name}</S.Button>
 	)
 }
 

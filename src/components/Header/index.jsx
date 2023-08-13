@@ -1,11 +1,10 @@
+import * as S from './style'
 
 function Header({title }) {
 	return (
-		<header>
-			<h1>
+		<S.Header>
 			{title}
-			</h1>
-		</header>
+		</S.Header>
 	)
 }
 

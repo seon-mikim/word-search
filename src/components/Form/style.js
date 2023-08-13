@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
-export const Layout = styled.div`
+export const Form = styled.form`
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	margin: 20px;
-` 
+	width: 500px;
+`

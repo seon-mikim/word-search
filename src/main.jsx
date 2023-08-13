@@ -11,7 +11,8 @@ import GlobalStyle from './style/globalStyle.js'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <GlobalStyle />
-      <ThemeProvider theme={theme}/>
+      <ThemeProvider theme={theme}>
       <RouterProvider router={Router} />
+      </ThemeProvider>
   </React.StrictMode>,
 )
