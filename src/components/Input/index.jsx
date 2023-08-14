@@ -1,7 +1,7 @@
-
+import * as S from './style'
 function Input({ ...props}) {
 	return (
-		<input {...props} />
+		<S.Input {...props} />
 	)
 }
 

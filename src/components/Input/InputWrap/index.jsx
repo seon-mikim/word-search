@@ -1,6 +1,7 @@
-function InputWrap({children}) {
+import * as S from './style'
+function InputWrap({ children }) {
 	return (
-		<div>{children }</div>
+		<S.InputWrap>{children }</S.InputWrap>
 	)
 }
 
