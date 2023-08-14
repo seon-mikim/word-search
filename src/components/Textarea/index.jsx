@@ -1,7 +1,7 @@
 
-function Textarea() {
+function Textarea({...props }) {
 	return (
-		<textarea/>
+		<textarea{...props} />
 	)
 }
 
