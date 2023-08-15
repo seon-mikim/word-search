@@ -1,2 +1,2 @@
-const initialEdit = { title: '', description: '', firstWord: '', secondWord: '', thirdWord: '', fourthWord: '', fifthWord: '', sixthWord: '', seventhWord: '', eighthWord: '', ninthWord: '', tenthWord: '' }
+const initialEdit = { title: '', description: '', word: '' }
 export default initialEdit
