@@ -6,7 +6,7 @@ import ButtonWrap from "../components/Button/ButtonWrap"
 function MainPage() {
 	const navigate = useNavigate()
 	const handleClick = () => {
-		navigate('/editgame')
+		navigate('/editGame')
 	}
 	return (
 		<div>
