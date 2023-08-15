@@ -3,6 +3,8 @@ import Layout from '../components/Layout/index'
 import MainPage from "../pages/MainPage";
 import EditGamePage from '../pages/EditGamePage'
 import NotFoundPage from '../pages/NotFoundPage'
+import SelectGamePage from "../pages/SelectGamePage";
+import PlayGamePage from "../pages/PlayGamePage";
 
 const Router = createBrowserRouter([
 	{
@@ -14,13 +16,21 @@ const Router = createBrowserRouter([
         element:<MainPage/>,
       },
       {
-        path: 'editgame',
+        path: 'editGame',
         element: <EditGamePage/>,
       },
       {
         path: '*',
         element: <NotFoundPage />,
       },
+      {
+        path: 'selectGame',
+        element:<SelectGamePage/>
+      },
+      {
+        path: 'playGame/:title',
+        element: <PlayGamePage/>
+      }
     ],
   },
 ])
